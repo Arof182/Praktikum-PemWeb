@@ -1,0 +1,101 @@
+body {
+    margin:0px;
+}
+.Profile {
+    display: flex;
+    align-items : center;
+    background-color: lightblue;;
+}
+.Profile img {
+    border-radius: 50%;
+    margin: 20px 20px;
+}
+.Profile .text {
+    margin: 20px;
+}
+.Profile .text h5 {
+    margin-top: 0px;
+}
+.Profile .text h1 {
+    margin-bottom: 5px;
+}
+.aboutme_img {
+    border-radius: 50px;
+}
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    Color: white;
+    background-color: black;
+    margin-top: 0px;
+    padding: 15px;
+}
+.navbar li {
+    margin-left: 30px;
+    list-style-type: none;
+}
+.info_bg {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgrey;
+    width: 500px;
+    height: 550px;
+    border-radius:50px;
+    margin: 50px 0px 0px 100px;
+}
+.info_text {
+    padding: 10px 40px 0px 40px;
+}
+table, th, td {
+    border: 2px solid black;
+}
+.skill_bg {
+    background-color: lightgrey;
+    border-radius: 50px;
+    margin-top: 40px;
+    width: 400px;
+    height: 250px;
+    margin-left: 700px;
+    padding: 10px 0px 30px 0px;
+}
+.skill_title {
+    display: flex;
+    justify-content: center;
+}
+.skill_tablee {
+    display: flex;
+    justify-content: center;
+}
+.skill_table {
+    display: flex;
+    justify-content: center;
+}
+.data {
+    margin-left: 100px;
+}
+.pesan {
+    margin-left: 100px;
+}
+.contact {
+    margin-top: 30px;
+    padding-top: 20px;
+    color: Yellow;
+    background-color: black;
+}
+.contact_title {
+    display:flex;
+    justify-content: center;
+}
+.contact_content {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.contact_content_list {
+    color : white;
+    margin-left: 40px;
+}
+.contact_link {
+    color: white;
+}
